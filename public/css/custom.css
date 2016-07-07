@@ -1,0 +1,18 @@
+#match{
+	height: 300px;
+}
+#main-box {
+	display:none;
+}
+#matchWrap {
+	float:left;
+	border: 1px #000 solid;
+}
+
+.error {
+	color:red;
+}
+.system{
+	color:grey;
+	font-style: italic;
+}

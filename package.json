@@ -1,0 +1,10 @@
+{
+  "name": "node-socket-io-game",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": "4.13.3",
+    "http": "latest",
+    "socket.io": "latest",
+    "nodemon": "latest"
+  }
+}

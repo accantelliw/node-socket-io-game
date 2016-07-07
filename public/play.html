@@ -1,0 +1,58 @@
+<html>
+<head>
+	<title>Socket.io Tennis game</title>
+	<link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+	
+	<div id="init-box">
+		<p>Enter a nick and choose your level:</p>
+		<form id="init-form">
+			<p>Nick</p>
+			<input size="35" id="username"></input>
+			<p>Level</p>
+			<select id="level" name="level">
+				<option value="0">Easy, just try it...</option>
+				<option value="1">Feel good, go with Medium.</option>
+				<option value="2">Hardest. I'm a ninja.</option>
+			</select>
+			<input id="init-button" type="submit" value="start"></input>
+		</form>
+	</div>
+
+	<div id="main-box">
+		<div id="matchWrap">
+			<div id="match"></div>
+			<form id="hit-form">
+				<select id="hit1">
+					<option value="forehand">forehand</option>
+					<option value="backend">backend</option>
+				</select>
+				<select id="hit2">
+					<option value="top">top</option>
+					<option value="back">back</option>
+				</select>
+				<select id="hit3">
+					<option value="long-line">long-line</option>
+					<option value="cross-court">cross-court</option>
+					<option value="short">short</option>
+					<option value="smash">smash</option>
+					<option value="volè">volè</option>
+					<option value="drop">drop</option>
+				</select>
+				<input id="hit-button" type="submit" value="hit the ball!"></input>
+			</form>
+		</div>
+		<div id="users"></div>
+		<div id="match-result"></div>
+	</div>
+
+	<script src="jquery/dist/jquery.min.js"></script>
+	<script src="socket.io-client/socket.io.js"></script>
+	<script src="js/client.js"></script>
+
+</body>
+</html>
+
+
