@@ -46,6 +46,3 @@ A list of current playing users across the system will be shown.
 ### TODO
 
 * Add Material design
-=======
-# node-socket-io-game
-NodeJS + Socket.io example: a simple tennis game.
